@@ -39,6 +39,7 @@ console.log("addition(x)");
 console.log("soustraction(x)");
 console.log("multiplication(x)");
 console.log("division(x)");
+console.log("reset(x)");
 
 let total = 0;
 
