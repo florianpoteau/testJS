@@ -84,7 +84,6 @@ const b2 = document.getElementById("b2");
 const reponse = document.getElementById("reponse");
 
 
-
 b1.addEventListener("click", () =>{
     reponse.style.visibility = "visible";
     berne.style.background = "green";
