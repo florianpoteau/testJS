@@ -5,3 +5,25 @@
 .js {
     width: 10%;
 }
+
+.berne{
+    border: solid 4px;
+background-color: black;
+text-align: center;
+padding: 10px;
+}
+
+.berne h4, .berne p {
+    color: white;
+}
+
+#reponse {
+    visibility: hidden;
+    width: 240px;
+    margin: 10px auto 0;
+}
+
+.wesh {
+    visibility: visible;
+}
+

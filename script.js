@@ -1,4 +1,4 @@
-alert("Bienvenue sur ce site unique");
+
 
 let p1 = document.getElementById("p1");
 let img = document.getElementById("img");
@@ -77,3 +77,20 @@ function reset () {
     total = 0;
     return total
 }
+
+const berne = document.querySelector(".berne");
+const b1 = document.getElementById("b1");
+const b2 = document.getElementById("b2");
+const reponse = document.getElementById("reponse");
+
+
+
+b1.addEventListener("click", () =>{
+    reponse.style.visibility = "visible";
+    berne.style.background = "green";
+})
+
+b2.addEventListener("click", () => {
+    reponse.style.visibility = "visible";
+    berne.style.background = "red";
+} )
