@@ -81,15 +81,17 @@ function reset () {
 const berne = document.querySelector(".berne");
 const b1 = document.getElementById("b1");
 const b2 = document.getElementById("b2");
-const reponse = document.getElementById("reponse");
+const reponse = document.querySelector(".reponse");
 
 
 b1.addEventListener("click", () =>{
-    reponse.style.visibility = "visible";
+    reponse.style.background = "orange"
+    reponse.classList.add("test");
     berne.style.background = "green";
 })
 
 b2.addEventListener("click", () => {
-    reponse.style.visibility = "visible";
+    reponse.style.background = "grey"
+    reponse.classList.add("test");
     berne.style.background = "red";
 } )
