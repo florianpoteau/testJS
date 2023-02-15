@@ -1,5 +1,3 @@
-
-
 let p1 = document.getElementById("p1");
 let img = document.getElementById("img");
 let p2 = document.querySelector(".p2");
@@ -32,9 +30,9 @@ let y = "5";
 
 // If Else sur une ligne
 
-x==y ? console.log("x est bien égaux a y: " + true) : console.log(false);
+x == y ? console.log("x est bien égaux a y: " + true) : console.log(false);
 
-console.log("Pour utiliser la calculatrice: ")
+console.log("Pour utiliser la calculatrice: ");
 console.log("addition(x)");
 console.log("soustraction(x)");
 console.log("multiplication(x)");
@@ -43,39 +41,37 @@ console.log("reset(x)");
 
 let total = 0;
 
-function addition (x) {
-    total += x;
-    return total
+function addition(x) {
+  total += x;
+  return total;
 }
 
-function soustraction (x) {
-    total -= x;
-    return total
+function soustraction(x) {
+  total -= x;
+  return total;
 }
 
-function multiplication (x) {
-    if (total === 0) {
-        return (total = x);
-    }
-else {
+function multiplication(x) {
+  if (total === 0) {
+    return (total = x);
+  } else {
     total *= x;
-    return total
-}
+    return total;
+  }
 }
 
-function division (x) {
-    if (total === 0) {
-        return (total = x)
-    }
-else {
+function division(x) {
+  if (total === 0) {
+    return (total = x);
+  } else {
     total /= x;
-    return total
-}
+    return total;
+  }
 }
 
-function reset () {
-    total = 0;
-    return total
+function reset() {
+  total = 0;
+  return total;
 }
 
 const berne = document.querySelector(".berne");
@@ -84,14 +80,65 @@ const b2 = document.getElementById("b2");
 const reponse = document.querySelector(".reponse");
 
 
-b1.addEventListener("click", () =>{
-    reponse.style.background = "orange"
-    reponse.classList.add("test");
-    berne.style.background = "green";
-})
+b1.addEventListener("click", () => {
+
+  reponse.innerHTML = "Bonne réponse";
+
+  reponse.style.background = "orange";
+  
+  reponse.classList.add("test");
+
+  berne.style.background = "green";
+});
 
 b2.addEventListener("click", () => {
-    reponse.style.background = "grey"
-    reponse.classList.add("test");
-    berne.style.background = "red";
-} )
+
+  reponse.innerHTML = "Mauvaise réponse";
+
+  reponse.style.background = "darkcyan";
+
+  reponse.classList.add("test");
+
+  berne.style.background = "red";
+
+});
+
+// Mousemove
+
+const mousemove = document.querySelector('.mousemove');
+
+window.addEventListener('mousemove', (e) => {
+    mousemove.style.left = e.pageX + "px";
+    mousemove.style.top = e.pageY + "px";
+});
+window.addEventListener("mousedown", () => {
+    mousemove.style.transform = "scale(2) translate(-25%, -25%)";
+})
+
+window.addEventListener("mouseup", () => {
+    mousemove.style.transform = "scale(1) translate(-50%, -50%)";
+    mousemove.style.border = "2px solid teal";
+});
+
+b1.addEventListener("mouseenter", () => {
+    berne.style.background = "rgba(0,0,0,0.75)";
+});
+
+b2.addEventListener("mouseenter", () => {
+    berne.style.background = "rgba(0,0,0,0.75)";
+});
+
+b1.addEventListener("mouseout", () => {
+    berne.style.background = "grey";
+});
+
+b2.addEventListener("mouseout", () => {
+    berne.style.background = "grey";
+});
+
+reponse.addEventListener("mouseover", () =>{
+    reponse.style.transform = "rotate(2deg)";
+})
+
+
+

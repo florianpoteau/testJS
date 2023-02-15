@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 #img {
     width: 25%;
 }
@@ -8,9 +12,10 @@
 
 .berne{
     border: solid 4px;
-background-color: black;
+background-color: grey;
 text-align: center;
-padding: 10px;
+padding: 20px;
+padding-bottom: 30px;
 }
 
 .berne h4, .berne p {
@@ -20,13 +25,38 @@ padding: 10px;
 .reponse {
     visibility: hidden;
     width: 240px;
+    height: 30px;
+    padding-top: 10px;
     margin: 10px auto 0;
     opacity: 0;
     transition: 0.6s;
+    transform: translateX(-300px);
+    
 }
 
 .test {
     visibility: visible;
     opacity: 1;
+    transform: translateX(0);
 }
+
+
+
+.mousemove {
+    height: 50px;
+    width: 50px;
+    border: 2px solid pink;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    transition: 0.3s ease;
+    border-radius: 50px;
+    z-index: -1;
+}
+
+#b1, #b2{
+    width: 10%;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
 
