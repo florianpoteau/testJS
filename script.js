@@ -103,6 +103,34 @@ b2.addEventListener("click", () => {
 
 });
 
+const berne1 = document.querySelector(".berne1");
+const b11 = document.getElementById("b11");
+const b22 = document.getElementById("b22");
+const reponse1 = document.querySelector(".reponse1");
+
+b11.addEventListener("click", () => {
+
+  reponse1.innerHTML = "Bonne réponse"
+
+  reponse1.style.background = "orange";
+
+  berne1.style.background = "green";
+
+  reponse1.classList.add("test1");
+});
+
+b22.addEventListener("click", () => {
+
+  reponse1.innerHTML = "Mauvaise réponse";
+
+  reponse1.style.background = "orange";
+
+  reponse1.classList.add("test1");
+
+  berne1.style.background = "red";
+
+});
+
 // Mousemove
 
 const mousemove = document.querySelector('.mousemove');
@@ -138,6 +166,26 @@ b2.addEventListener("mouseout", () => {
 
 reponse.addEventListener("mouseover", () =>{
     reponse.style.transform = "rotate(2deg)";
+});
+
+b11.addEventListener("mouseenter", () => {
+berne1.style.background = "rgba(0,0,0,0.75)";
+});
+
+b22.addEventListener("mouseenter", () => {
+  berne1.style.background = "rgba(0,0,0,0.75)";
+});
+
+b11.addEventListener("mouseout", () => {
+  berne1.style.background = "grey";
+});
+
+b22.addEventListener("mouseout", () => {
+  berne1.style.background = "grey";
+})
+
+reponse1.addEventListener("mouseover", () => {
+  reponse1.style.transform = "rotate(2deg)";
 })
 
 
