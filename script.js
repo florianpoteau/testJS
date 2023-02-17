@@ -83,6 +83,7 @@ const b1 = document.getElementById("b1");
 const b2 = document.getElementById("b2");
 const reponse = document.querySelector(".reponse");
 const unique = document.querySelector(".unique");
+const explication = document.querySelector(".explication");
 
 
 b1.addEventListener("click", () => {
@@ -98,6 +99,8 @@ b1.addEventListener("click", () => {
   unique.src = "unique.png"
 
   unique.classList.add ("imagev");
+
+  explication.innerHTML = "Alejandro est uniiique, il fait des sites uniiique, avec son code unique, franchement... juste, uniiique";
 
 });
 
@@ -115,6 +118,8 @@ b2.addEventListener("click", () => {
 
   unique.classList.add ("imagev");
 
+  explication.innerHTML = "Alejandro est uniiique, il fait des sites uniiique, avec son code unique, franchement... juste, uniiique";
+
 });
 
 // Question 2
@@ -124,6 +129,7 @@ const b11 = document.getElementById("b11");
 const b22 = document.getElementById("b22");
 const reponse1 = document.querySelector(".reponse1");
 const angrboda = document.querySelector(".angrboda");
+const explication1 = document.querySelector(".explication1");
 
 b11.addEventListener("click", () => {
 
@@ -138,6 +144,8 @@ b11.addEventListener("click", () => {
 angrboda.src = ("angrboda.jpg");
 
 angrboda.classList.add("imagev");
+
+explication1.innerHTML = "La femme de Loki était Angrboda, il s'agissait des 2 derniers géants de midgard, ensemble ils donna naissance a Jormungand (le serpent monde), Fenrir (un loup gigantesque), ainsi que Hel (la déesse des morts)";
 
 });
 
@@ -155,6 +163,8 @@ b22.addEventListener("click", () => {
 
   angrboda.classList.add("imagev");
 
+  explication1.innerHTML = "La femme de Loki était Angrboda, il s'agissait des 2 derniers géants de midgard, ensemble ils donna naissance a Jormungand (le serpent monde), Fenrir (un loup gigantesque), ainsi que Hel (la déesse des morts)";
+
 });
 
 // Question 3
@@ -164,6 +174,7 @@ const b111 = document.getElementById("b111");
 const b222 = document.getElementById("b222");
 const reponse2 = document.querySelector(".reponse2");
 const odin = document.querySelector(".odin");
+const explication2 = document.querySelector(".explication2");
 
 b111.addEventListener("click", () =>{
 
@@ -175,9 +186,11 @@ b111.addEventListener("click", () =>{
 
   reponse2.classList.add ("test");
 
-  odin.src = "freya.png";
+  odin.src = "frigg.jpg";
 
   odin.classList.add("imagev");
+
+  explication2.innerHTML = "Frigg était la femme d'Odin, assise à coté de son époux sur le siège magique, Hlidskialf, elle peut voir et entendre tout ce qui se passe dans le monde et bien qu'elle connaisse le destin de tous elle n'énonce jamais de prophéties. Elle peut voir l'avenir, et elle connaît le destin de tous les hommes et de tous les dieux, mais elle ne partage cette connaissance avec nul autre.";
 
 });
 
@@ -191,9 +204,11 @@ b222.addEventListener("click", () => {
 
   reponse2.style.background = "orange";
 
-  odin.src = "freya.png";
+  odin.src = "frigg.jpg";
 
   odin.classList.add ("imagev");
+
+  explication2.innerHTML = "Frigg était la femme d'Odin, assise à coté de son époux sur le siège magique, Hlidskialf, elle peut voir et entendre tout ce qui se passe dans le monde et bien qu'elle connaisse le destin de tous elle n'énonce jamais de prophéties. Elle peut voir l'avenir, et elle connaît le destin de tous les hommes et de tous les dieux, mais elle ne partage cette connaissance avec nul autre.";
 
 });
 
@@ -204,6 +219,7 @@ const b1111 = document.getElementById("b1111");
 const b2222 = document.getElementById("b2222");
 const reponse3 = document.querySelector(".reponse3");
 const arbre = document.querySelector(".arbre");
+const explication3 = document.querySelector(".explication3");
 
 b1111.addEventListener("click", () => {
 
@@ -218,6 +234,8 @@ b1111.addEventListener("click", () => {
   arbre.src = "yggdrasil.jpg";
 
   arbre.classList.add ("imagev");
+  
+  explication3.innerHTML = "L'arbre monde, que l'on nomme aussi Yggdrasil, est l'arbre se trouvant entre les royaumes, il relie les mondes entre eux et sert de pont entre les royaumes pour les dieux nordiques";
 
 });
 
@@ -235,6 +253,8 @@ b2222.addEventListener("click", () => {
 
   arbre.classList.add("imagev");
 
+  explication3.innerHTML = "L'arbre monde, que l'on nomme aussi Yggdrasil, est l'arbre se trouvant entre les royaumes, il relie les mondes entre eux et sert de pont entre les royaumes pour les dieux nordiques";
+
 });
 
 // Question 5
@@ -244,6 +264,7 @@ const b11111 = document.getElementById("b11111");
 const b22222 = document.getElementById("b22222");
 const reponse4 = document.querySelector(".reponse4");
 const creation = document.querySelector(".creation");
+const explication4 = document.querySelector(".explication4");
 
 b11111.addEventListener("click", () =>{
 
@@ -258,6 +279,8 @@ b11111.addEventListener("click", () =>{
   creation.src = "ginnungagap.jpg";
 
   creation.classList.add("imagev");
+
+  explication4.innerHTML = "Le ginnungagap est la bonne réponse, le ginnungagap s'est produit lorsque la glace du royaume de niflheim ainsi que le feu du royaume de muspelheim se sont percuté créant ainsi la vie";
   
 });
 
@@ -275,6 +298,8 @@ b22222.addEventListener("click", () =>{
 
   creation.classList.add("imagev");
 
+  explication4.innerHTML = "Le ginnungagap est la bonne réponse, le ginnungagap s'est produit lorsque la glace du royaume de niflheim ainsi que le feu du royaume de muspelheim se sont percuté créant ainsi la vie";
+
 });
 
 // Question 6
@@ -284,6 +309,7 @@ const b111111 = document.getElementById("b111111");
 const b222222 = document.getElementById("b222222");
 const reponse5 = document.querySelector(".reponse5");
 const geant = document.querySelector(".geant");
+const explication5 = document.querySelector(".explication5")
 
 b111111.addEventListener("click", () => {
 
@@ -298,6 +324,8 @@ b111111.addEventListener("click", () => {
   geant.src = "Ymir.png";
 
   geant.classList.add("imagev");
+
+  explication5.innerHTML = "Ymir était le premier des géant, né lors du ginnungagap lorsque la glace et le feu se rencontrèrent";
 
 });
 
@@ -314,6 +342,8 @@ reponse5.classList.add("test");
 geant.src = "Ymir.png";
 
 geant.classList.add("imagev");
+
+explication5.innerHTML = "Ymir était le premier des géant, né lors du ginnungagap lorsque la glace et le feu se rencontrèrent";
 
 })
 
