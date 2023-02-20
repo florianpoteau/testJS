@@ -3,7 +3,7 @@ let img = document.getElementById("img");
 let p2 = document.querySelector(".p2");
 
 p1.innerHTML = "HELLO WORLD";
-img.src = "JavaScript-logo.png";
+img.src = "image/JavaScript-logo.png";
 
 let bouton = document.querySelector(".submit");
 
@@ -18,7 +18,7 @@ let img2 = document.querySelector(".img2");
 // });
 
 function afficher() {
-  img2.src = "Javascript.png";
+  img2.src = "image/Javascript.png";
 }
 
 function supprimer() {
@@ -76,6 +76,15 @@ function reset() {
 
 // Questionnaire
 
+// Constante
+
+const bonne = "Bonne réponse";
+const mauvaise = "Mauvaise réponse";
+const styleBonneRep = "orange";
+const styleMauvaiseRep = "darkcyan";
+const berneStyleBonne = "green";
+const berneStyleMauvaise = "red";
+
 // Question 1
 
 let berne = document.querySelector(".berne");
@@ -85,17 +94,7 @@ let reponse = document.querySelector(".reponse");
 let divImg = document.querySelector(".unique");
 let explication = document.querySelector(".explication");
 
-const bonne = "Bonne réponse";
-const mauvaise = "Mauvaise réponse";
-const styleBonneRep = "orange";
-const styleMauvaiseRep = "darkcyan";
-const berneStyleBonne = "green";
-const berneStyleMauvaise = "red";
-
-
-// Variable question 1
-
-let imagepng = "unique.png";
+let imagepng = "image/unique.png";
 let exemple01 = "Alejandro est uniiique, il fait des sites uniiique, avec son code unique, franchement... juste, uniiique";
 
 
@@ -121,7 +120,7 @@ bouton.addEventListener("click", () => {
 });
 }
 
-// Fonction mousemove enter question 1
+// Fonction mousemove enter question
 
 function mousemoves (bouton, container) {
   bouton.addEventListener("mouseenter", () => {
@@ -129,7 +128,7 @@ function mousemoves (bouton, container) {
   })
   }
 
-  // Fonction mousemove out question 1
+  // Fonction mousemove out question
 
   function mousemoves1 (bouton, container) {
     bouton.addEventListener("mouseout", () => {
@@ -137,7 +136,7 @@ function mousemoves (bouton, container) {
     })
   }
 
-  // fonction mousemove rotate question 1
+  // fonction mousemove rotate question
 
   function mousemoves2 (reponse) {
     reponse.addEventListener("mouseover", () => {
@@ -165,7 +164,7 @@ b2 = document.getElementById("b22");
 reponse = document.querySelector(".reponse1");
 divImg = document.querySelector(".angrboda");
 explication = document.querySelector(".explication1");
-imagepng = "angrboda.jpg";
+imagepng = "image/angrboda.jpg";
 exemple01 = "La femme de Loki était Angrboda, il s'agissait des 2 derniers géants de midgard, ensemble ils donna naissance a Jormungand (le serpent monde), Fenrir (un loup gigantesque), ainsi que Hel (la déesse des morts)";
 
 eve(b1, reponse, bonne, styleBonneRep, berne, berneStyleBonne, divImg, imagepng, explication, exemple01);
@@ -177,6 +176,7 @@ mousemoves1(b2, berne);
 mousemoves2(reponse);
 
 
+
 // Question 3
 
 berne = document.querySelector(".berne2");
@@ -185,7 +185,7 @@ b2 = document.getElementById("b222");
 reponse = document.querySelector(".reponse2");
 divImg = document.querySelector(".odin");
 explication = document.querySelector(".explication2");
-imagepng = "frigg.jpg";
+imagepng = "image/frigg.jpg";
 exemple01 = "Frigg était la femme d'Odin, assise à coté de son époux sur le siège magique, Hlidskialf, elle peut voir et entendre tout ce qui se passe dans le monde et bien qu'elle connaisse le destin de tous elle n'énonce jamais de prophéties. Elle peut voir l'avenir, et elle connaît le destin de tous les hommes et de tous les dieux, mais elle ne partage cette connaissance avec nul autre.";
 
 eve(b1, reponse, bonne, styleBonneRep, berne, berneStyleBonne, divImg, imagepng, explication, exemple01);
@@ -207,7 +207,7 @@ b2 = document.getElementById("b2222");
 reponse = document.querySelector(".reponse3");
 divImg = document.querySelector(".arbre");
 explication = document.querySelector(".explication3");
-imagepng = "yggdrasil.jpg";
+imagepng = "image/yggdrasil.jpg";
 exemple01 = "L'arbre monde, que l'on nomme aussi Yggdrasil, est l'arbre se trouvant entre les royaumes, il relie les mondes entre eux et sert de pont entre les royaumes pour les dieux nordiques";
 
 eve(b1, reponse, bonne, styleBonneRep, berne, berneStyleBonne, divImg, imagepng, explication, exemple01);
@@ -229,7 +229,7 @@ b2 = document.getElementById("b22222");
 reponse = document.querySelector(".reponse4");
 divImg = document.querySelector(".creation");
 explication = document.querySelector(".explication4");
-imagepng = "ginnungagap.jpg";
+imagepng = "image/ginnungagap.jpg";
 exemple01 = "Le ginnungagap est la bonne réponse, le ginnungagap s'est produit lorsque la glace du royaume de niflheim ainsi que le feu du royaume de muspelheim se sont percuté créant ainsi la vie";
 
 eve(b1, reponse, bonne, styleBonneRep, berne, berneStyleBonne, divImg, imagepng, explication, exemple01);
@@ -250,7 +250,7 @@ b2 = document.getElementById("b222222");
 reponse = document.querySelector(".reponse5");
 divImg = document.querySelector(".geant");
 explication = document.querySelector(".explication5");
-imagepng = "Ymir.png";
+imagepng = "image/Ymir.png";
 exemple01 = "Ymir était le premier des géant, né lors du ginnungagap lorsque la glace et le feu se rencontrèrent";
 
 eve(b1, reponse, bonne, styleBonneRep, berne, berneStyleBonne, divImg, imagepng, explication, exemple01);
