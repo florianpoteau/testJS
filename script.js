@@ -188,8 +188,8 @@ explication = document.querySelector(".explication2");
 imagepng = "image/frigg.jpg";
 exemple01 = "Frigg était la femme d'Odin, assise à coté de son époux sur le siège magique, Hlidskialf, elle peut voir et entendre tout ce qui se passe dans le monde et bien qu'elle connaisse le destin de tous elle n'énonce jamais de prophéties. Elle peut voir l'avenir, et elle connaît le destin de tous les hommes et de tous les dieux, mais elle ne partage cette connaissance avec nul autre.";
 
-questionnaire(b1, reponse, bonne, styleBonneRep, berne, berneStyleBonne, divImg, imagepng, explication, exemple01);
-questionnaire(b2, reponse, mauvaise, styleMauvaiseRep, berne, berneStyleMauvaise, divImg, imagepng, explication, exemple01);
+questionnaire(b1, reponse, mauvaise, styleMauvaiseRep, berne, berneStyleMauvaise, divImg, imagepng, explication, exemple01);
+questionnaire(b2, reponse, bonne, styleBonneRep, berne, berneStyleBonne, divImg, imagepng, explication, exemple01);
 mousemoves(b1, berne);
 mousemoves(b2, berne);
 mousemoves1(b1, berne);
@@ -210,8 +210,8 @@ explication = document.querySelector(".explication3");
 imagepng = "image/yggdrasil.jpg";
 exemple01 = "L'arbre monde, que l'on nomme aussi Yggdrasil, est l'arbre se trouvant entre les royaumes, il relie les mondes entre eux et sert de pont entre les royaumes pour les dieux nordiques";
 
-questionnaire(b1, reponse, bonne, styleBonneRep, berne, berneStyleBonne, divImg, imagepng, explication, exemple01);
-questionnaire(b2, reponse, mauvaise, styleMauvaiseRep, berne, berneStyleMauvaise, divImg, imagepng, explication, exemple01);
+questionnaire(b1, reponse, mauvaise, styleMauvaiseRep, berne, berneStyleMauvaise, divImg, imagepng, explication, exemple01);
+questionnaire(b2, reponse, bonne, styleBonneRep, berne, berneStyleBonne, divImg, imagepng, explication, exemple01);
 mousemoves(b1, berne);
 mousemoves(b2, berne);
 mousemoves1(b1, berne);
@@ -253,8 +253,8 @@ explication = document.querySelector(".explication5");
 imagepng = "image/Ymir.png";
 exemple01 = "Ymir était le premier des géant, né lors du ginnungagap lorsque la glace et le feu se rencontrèrent";
 
-questionnaire(b1, reponse, bonne, styleBonneRep, berne, berneStyleBonne, divImg, imagepng, explication, exemple01);
-questionnaire(b2, reponse, mauvaise, styleMauvaiseRep, berne, berneStyleMauvaise, divImg, imagepng, explication, exemple01);
+questionnaire(b1, reponse, mauvaise, styleMauvaiseRep, berne, berneStyleMauvaise, divImg, imagepng, explication, exemple01);
+questionnaire(b2, reponse, bonne, styleBonneRep, berne, berneStyleBonne, divImg, imagepng, explication, exemple01);
 mousemoves(b1, berne);
 mousemoves(b2, berne);
 mousemoves1(b1, berne);
