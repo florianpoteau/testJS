@@ -98,9 +98,9 @@ let imagepng = "image/unique.png";
 let exemple01 = "Alejandro est uniiique, il fait des sites uniiique, avec son code unique, franchement... juste, uniiique";
 
 
-// Fonction 1 pour: bouton, reponse, boite
+// Fonction
 
-function eve (bouton, rep, bonne, style, container, berneStyle, img, png, exemple, exemples) {
+function questionnaire (bouton, rep, bonne, style, container, berneStyle, img, png, exemple, exemples) {
 bouton.addEventListener("click", () => {
 
   rep.innerHTML = bonne;
@@ -146,8 +146,8 @@ function mousemoves (bouton, container) {
 
 // Question 1
 
-eve(b1, reponse, bonne, styleBonneRep, berne, berneStyleBonne, divImg, imagepng, explication, exemple01);
-eve(b2, reponse, mauvaise, styleMauvaiseRep, berne, berneStyleMauvaise, divImg, imagepng, explication, exemple01);
+questionnaire(b1, reponse, bonne, styleBonneRep, berne, berneStyleBonne, divImg, imagepng, explication, exemple01);
+questionnaire(b2, reponse, mauvaise, styleMauvaiseRep, berne, berneStyleMauvaise, divImg, imagepng, explication, exemple01);
 mousemoves(b1, berne);
 mousemoves(b2, berne);
 mousemoves1(b1, berne);
@@ -167,8 +167,8 @@ explication = document.querySelector(".explication1");
 imagepng = "image/angrboda.jpg";
 exemple01 = "La femme de Loki était Angrboda, il s'agissait des 2 derniers géants de midgard, ensemble ils donna naissance a Jormungand (le serpent monde), Fenrir (un loup gigantesque), ainsi que Hel (la déesse des morts)";
 
-eve(b1, reponse, bonne, styleBonneRep, berne, berneStyleBonne, divImg, imagepng, explication, exemple01);
-eve(b2, reponse, mauvaise, styleMauvaiseRep, berne, berneStyleMauvaise, divImg, imagepng, explication, exemple01);
+questionnaire(b1, reponse, bonne, styleBonneRep, berne, berneStyleBonne, divImg, imagepng, explication, exemple01);
+questionnaire(b2, reponse, mauvaise, styleMauvaiseRep, berne, berneStyleMauvaise, divImg, imagepng, explication, exemple01);
 mousemoves(b1, berne);
 mousemoves(b2, berne);
 mousemoves1(b1, berne);
@@ -188,8 +188,8 @@ explication = document.querySelector(".explication2");
 imagepng = "image/frigg.jpg";
 exemple01 = "Frigg était la femme d'Odin, assise à coté de son époux sur le siège magique, Hlidskialf, elle peut voir et entendre tout ce qui se passe dans le monde et bien qu'elle connaisse le destin de tous elle n'énonce jamais de prophéties. Elle peut voir l'avenir, et elle connaît le destin de tous les hommes et de tous les dieux, mais elle ne partage cette connaissance avec nul autre.";
 
-eve(b1, reponse, bonne, styleBonneRep, berne, berneStyleBonne, divImg, imagepng, explication, exemple01);
-eve(b2, reponse, mauvaise, styleMauvaiseRep, berne, berneStyleMauvaise, divImg, imagepng, explication, exemple01);
+questionnaire(b1, reponse, bonne, styleBonneRep, berne, berneStyleBonne, divImg, imagepng, explication, exemple01);
+questionnaire(b2, reponse, mauvaise, styleMauvaiseRep, berne, berneStyleMauvaise, divImg, imagepng, explication, exemple01);
 mousemoves(b1, berne);
 mousemoves(b2, berne);
 mousemoves1(b1, berne);
@@ -210,8 +210,8 @@ explication = document.querySelector(".explication3");
 imagepng = "image/yggdrasil.jpg";
 exemple01 = "L'arbre monde, que l'on nomme aussi Yggdrasil, est l'arbre se trouvant entre les royaumes, il relie les mondes entre eux et sert de pont entre les royaumes pour les dieux nordiques";
 
-eve(b1, reponse, bonne, styleBonneRep, berne, berneStyleBonne, divImg, imagepng, explication, exemple01);
-eve(b2, reponse, mauvaise, styleMauvaiseRep, berne, berneStyleMauvaise, divImg, imagepng, explication, exemple01);
+questionnaire(b1, reponse, bonne, styleBonneRep, berne, berneStyleBonne, divImg, imagepng, explication, exemple01);
+questionnaire(b2, reponse, mauvaise, styleMauvaiseRep, berne, berneStyleMauvaise, divImg, imagepng, explication, exemple01);
 mousemoves(b1, berne);
 mousemoves(b2, berne);
 mousemoves1(b1, berne);
@@ -232,8 +232,8 @@ explication = document.querySelector(".explication4");
 imagepng = "image/ginnungagap.jpg";
 exemple01 = "Le ginnungagap est la bonne réponse, le ginnungagap s'est produit lorsque la glace du royaume de niflheim ainsi que le feu du royaume de muspelheim se sont percuté créant ainsi la vie";
 
-eve(b1, reponse, bonne, styleBonneRep, berne, berneStyleBonne, divImg, imagepng, explication, exemple01);
-eve(b2, reponse, mauvaise, styleMauvaiseRep, berne, berneStyleMauvaise, divImg, imagepng, explication, exemple01);
+questionnaire(b1, reponse, bonne, styleBonneRep, berne, berneStyleBonne, divImg, imagepng, explication, exemple01);
+questionnaire(b2, reponse, mauvaise, styleMauvaiseRep, berne, berneStyleMauvaise, divImg, imagepng, explication, exemple01);
 mousemoves(b1, berne);
 mousemoves(b2, berne);
 mousemoves1(b1, berne);
@@ -253,8 +253,8 @@ explication = document.querySelector(".explication5");
 imagepng = "image/Ymir.png";
 exemple01 = "Ymir était le premier des géant, né lors du ginnungagap lorsque la glace et le feu se rencontrèrent";
 
-eve(b1, reponse, bonne, styleBonneRep, berne, berneStyleBonne, divImg, imagepng, explication, exemple01);
-eve(b2, reponse, mauvaise, styleMauvaiseRep, berne, berneStyleMauvaise, divImg, imagepng, explication, exemple01);
+questionnaire(b1, reponse, bonne, styleBonneRep, berne, berneStyleBonne, divImg, imagepng, explication, exemple01);
+questionnaire(b2, reponse, mauvaise, styleMauvaiseRep, berne, berneStyleMauvaise, divImg, imagepng, explication, exemple01);
 mousemoves(b1, berne);
 mousemoves(b2, berne);
 mousemoves1(b1, berne);
