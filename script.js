@@ -14,10 +14,6 @@ bouton.addEventListener("click", (event) => {
 
 let img2 = document.querySelector(".img2");
 
-// cliquer.addEventListener('click', event => {
-//     img2.src = `${event.img}`;
-// });
-
 function afficher() {
   img2.src = "image/Javascript.png";
 }
