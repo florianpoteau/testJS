@@ -280,4 +280,12 @@ window.addEventListener("mouseup", () => {
     mousemove.style.border = "2px solid teal";
 });
 
+// Keypress
 
+const keypress = document.querySelector(".keypress");
+const key = document.getElementById("key");
+
+
+document.addEventListener("keypress", () => {
+console.log("YES !!");
+})
