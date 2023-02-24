@@ -284,8 +284,10 @@ window.addEventListener("mouseup", () => {
 
 const keypress = document.querySelector(".keypress");
 const key = document.getElementById("key");
+const keycode = document.getElementById("keycode");
 
-
-document.addEventListener("keypress", () => {
-console.log("YES !!");
+document.addEventListener("keypress", (e) => {
+console.log(e);
+key.innerHTML = e.key;
+keycode.innerHTML = e.keycode;
 })

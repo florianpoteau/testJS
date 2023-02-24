@@ -78,6 +78,14 @@ padding-bottom: 30px;
     visibility: visible;
 }
 
+#key {
+    color: red;
+}
+
+#keycode{
+    color: green;
+}
+
 
 
 
