@@ -3,6 +3,7 @@ let img = document.getElementById("img");
 let p2 = document.querySelector(".p2");
 
 p1.innerHTML = "HELLO WORLD";
+p1.style.textAlign = "center";
 img.src = "image/JavaScript-logo.png";
 
 let bouton = document.querySelector(".submit");
@@ -316,7 +317,6 @@ ring();
 const nav = document.querySelector("nav");
 
 window.addEventListener("scroll", () => {
-  console.log(window.scrollY);
 
   if(window.scrollY > 120) {
     nav.style.top = 0;
