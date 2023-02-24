@@ -288,6 +288,16 @@ const keycode = document.getElementById("keycode");
 
 document.addEventListener("keypress", (e) => {
 console.log(e);
-key.innerHTML = e.key;
-keycode.innerHTML = e.keycode;
+key.textContent = e.key;
+keycode.innerHTML = e.keyCode;
+
+if(e.key === "f" || e.key === "g" || e.key === "q" || e.key === "s" || e.key === "d"){
+  keypress.style.background = "pink";
+}
+else if ( e.key === "h" || e.key === "j" || e.key === "k" || e.key === "l" || e.key === "m"){
+  keypress.style.background = "teal";
+}
+else {
+  keypress.style.background = "cyan";
+}
 })
