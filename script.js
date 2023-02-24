@@ -291,13 +291,24 @@ console.log(e);
 key.textContent = e.key;
 keycode.innerHTML = e.keyCode;
 
+const ring = () => {
+  const audio = new Audio();
+  audio.src = "./son/Enter.mp3";
+  audio.play();
+}
+
 if(e.key === "f" || e.key === "g" || e.key === "q" || e.key === "s" || e.key === "d"){
   keypress.style.background = "pink";
 }
 else if ( e.key === "h" || e.key === "j" || e.key === "k" || e.key === "l" || e.key === "m"){
   keypress.style.background = "teal";
 }
+
 else {
   keypress.style.background = "cyan";
 }
+
+ring();
+
+
 })
