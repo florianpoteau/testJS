@@ -312,6 +312,12 @@ ring();
 
 const nav = document.querySelector("nav");
 
+window.addEventListener("scroll", (e) => {
+
+  console.log(e);
+
+})
+
 window.addEventListener("scroll", () => {
 
   if(window.scrollY > 120) {
