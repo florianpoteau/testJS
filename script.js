@@ -284,7 +284,6 @@ const key = document.getElementById("key");
 const keycode = document.getElementById("keycode");
 
 document.addEventListener("keypress", (e) => {
-console.log(e);
 key.textContent = e.key;
 keycode.innerHTML = e.keyCode;
 
@@ -305,7 +304,7 @@ else {
   keypress.style.background = "cyan";
 }
 
-ring();
+// ring();
 })
 
 // Scroll Event
@@ -323,6 +322,26 @@ window.addEventListener("scroll", () => {
   else{
     nav.style.top = "-50px";
   }
+})
+
+
+
+const inputName = document.querySelector('input[type="text"]');
+const select = document.querySelector("select");
+
+let pseudo = "";
+let language = "";
+
+inputName.addEventListener('input', (e) =>{
+
+  pseudo = e.target.value;
+
+});
+
+select.addEventListener("input", (e) =>{
+
+console.log(e.target.value);
+
 })
 
 
