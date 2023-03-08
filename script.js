@@ -373,8 +373,18 @@ window.addEventListener("load", () => {
 
 // -----------------------------------------------
 
-const boxes = document.getElementsByClassName("berne");
+// ForEach
 
-console.log(boxes);
+// const boxes = document.getElementsByClassName("berne");
+
+const boxes = document.querySelectorAll(".berne");
+
+boxes.forEach((berne) =>{
+
+  berne.addEventListener("click", (e) =>{
+    console.log(e.target);
+  })
+
+})
 
 
