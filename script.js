@@ -363,4 +363,12 @@ form.addEventListener("submit", (e) =>{
 
 });
 
+// ---------------------------------------------
+
+//  load event
+
+window.addEventListener("load", () => {
+  console.log("Document chargé !");
+});
+
 
