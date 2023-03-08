@@ -371,4 +371,10 @@ window.addEventListener("load", () => {
   console.log("Document chargé !");
 });
 
+// -----------------------------------------------
+
+const boxes = document.getElementsByClassName("berne");
+
+console.log(boxes);
+
 
