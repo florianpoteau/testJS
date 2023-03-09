@@ -480,6 +480,8 @@ form.addEventListener("submit", (e) => {
 
 //  load event
 
+// Pour la fin du chargement du document
+
 window.addEventListener("load", () => {
   console.log("Document chargé !");
 });
