@@ -514,10 +514,23 @@ boxes.forEach((berne) => {
 
 // Bubbling => fin (par défaut l'eventlistener est paramétré en mode Bubbling)
 document.body.addEventListener("click", () => {
-  console.log("Click 2 !");
+  console.log("Click 1 !");
 }, false);
 
 // Usecapture
 document.body.addEventListener("click", () => {
-  console.log("Click 1 !");
+  console.log("Click 2 !");
 }, true);
+
+// Click 2 passe avant click 1
+
+// -----------------------------------
+// Stop propagation
+
+img.addEventListener("click", (e) => {
+alert("test");
+e.stopPropagation()
+});
+
+// Le click 1 sort après l'alerte sans le stop propagation
+// StopPropagation ne déclenche pas le UseCapture
