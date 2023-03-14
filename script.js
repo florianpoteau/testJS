@@ -527,7 +527,9 @@ document.body.addEventListener("click", () => {
 // -----------------------------------
 // Stop propagation
 
-img.addEventListener("click", (e) => {
+const stop = document.querySelector(".stop")
+
+stop.addEventListener("click", (e) => {
 alert("test");
 e.stopPropagation()
 });
