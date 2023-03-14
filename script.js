@@ -502,7 +502,7 @@ boxes.forEach((berne) => {
 
 // AddEventListener vs OnClick
 
-document.body.onclick = function() {
+document.body.onclick = function () {
   console.log("Click !");
 };
 
