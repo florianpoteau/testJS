@@ -499,3 +499,15 @@ boxes.forEach((berne) => {
     console.log(e.target);
   });
 });
+
+// AddEventListener vs OnClick
+
+document.body.onclick = function() {
+  console.log("Click !");
+};
+
+document.body.onscroll = () => {
+  console.log("Scroll");
+};
+
+// Onclick = On ne peut pas créer 2 événements sur la même propriété
