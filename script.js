@@ -502,12 +502,22 @@ boxes.forEach((berne) => {
 
 // AddEventListener vs OnClick
 
-document.body.onclick = function () {
-  console.log("Click !");
-};
+// document.body.onclick = function () {
+//   console.log("Click !");
+// };
 
-document.body.onscroll = () => {
-  console.log("Scroll");
-};
+// document.body.onscroll = () => {
+//   console.log("Scroll");
+// };
 
 // Onclick = On ne peut pas créer 2 événements sur la même propriété
+
+// Bubbling => fin (par défaut l'eventlistener est paramétré en mode Bubbling)
+document.body.addEventListener("click", () => {
+  console.log("Click 2 !");
+}, false);
+
+// Usecapture
+document.body.addEventListener("click", () => {
+  console.log("Click 1 !");
+}, true);
